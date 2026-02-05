@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: eliezer206568107/employee-api:v2
+          image: eliezer206568107/employee-api:v4
           imagePullPolicy: Always
           ports:
             - containerPort: 8000

@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import os
 import json
 
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017/")
+MONGO_URI = os.getenv("MONGODB_URL", "mongodb://localhost:27017/")
 file_path = './employee_data_advanced.json'
 
 client = MongoClient(MONGO_URI)
